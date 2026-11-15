@@ -1,1 +1,60 @@
 /* TODO: build .page-layout to match the mockup */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1a1a1a;
+}
+.page-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr 240px;
+    grid-template-rows: 67px 1fr 67px;
+    min-height: 100vh;
+}
+.site-header {
+    grid-column: 1 / 4;
+    background-color: #111827;
+    color: white;
+    padding: 20px 42px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.side-nav {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #f3f4f6;
+    padding: 30px 20px;
+}
+.side-nav a {
+    display: block;
+    color: #374151;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: white;
+    padding: 40px;
+}
+.sidebar {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: #f3f4f6;
+    color: #6b7280;
+    padding: 30px 20px;
+}
+.site-footer {
+    grid-column: 1 / 4;
+    background-color: #111827;
+    color: #9ca3af;
+    text-align: center;
+    padding: 20px;
+}
+.content h1 {
+    font-size: 42px;
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 20px;
+}
