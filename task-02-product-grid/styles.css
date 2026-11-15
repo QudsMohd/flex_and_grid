@@ -1,1 +1,41 @@
 /* TODO: build .product-grid with CSS Grid to match the mockup */
+body {
+    background-color: #f7f7f8;
+    color: #1a1a1a;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+
+}
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    padding: 14px;
+    border-radius: 6px;
+}
+.img-placeholder {
+    height: 140px;
+    background-color: #dbeafe;
+    border-radius: 6px;
+}
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #2563eb;
+    font-weight: bold;
+}
+.product-card button {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+}
