@@ -1,1 +1,67 @@
 /* TODO: build .pricing-row and .pricing-card with Flexbox to match the mockup */
+body {
+    margin: 0;
+    background-color: #f7f7f8;
+    color: #1a1a1a;
+    font-family: Arial, sans-serif;
+}
+
+.pricing-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 45px 36px;
+
+}
+.pricing-card {
+    flex: 1;
+    min-width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    color: #1a1a1a;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.pricing-card h2 {
+    font-size: 20px;
+}
+
+.featured {
+    flex: 3;
+    transform: scale(1.05);
+    background-color: white;
+    color: #1a1a1a;
+    z-index: 1;
+    border: 1px solid #2563eb;
+    background-color: #ffffff;
+}
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #111827;
+}
+.pricing-card ul {
+    color: #4b5563;
+    padding-left: 22px;
+}
+.featured .price {
+    color: #2563eb;
+    font-weight: bold;
+}
+.featured button {
+    background-color:#2563eb;
+    color: white;
+    border: none;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #111827;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #111827;
+    font-size: 16px;
+}
