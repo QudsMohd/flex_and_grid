@@ -1,1 +1,41 @@
 /* TODO: build .comment with Flexbox to match the mockup */
+body {
+    margin: 0;
+    background-color: #f7f7f8;
+    color: #1a1a1a;
+    font-family: Arial, sans-serif;
+}
+.comment {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+.avatar {
+    width: 74px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #818cf8;
+}
+.comment-body {
+    flex: 1;
+}
+.comment-author {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.comment-text {
+    font-size: 16px;
+    color: #4b5563;
+}
+.comment-list {
+    width: 760px;
+    margin: 50px auto;
+}
